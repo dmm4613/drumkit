@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./src/concert.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.keyboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.key {
+    display: flex;
+    flex-wrap: wrap;
+    width: 4rem;
+    border: 2px black solid;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 2rem;
+    transition:all 0.07s;
+}
+
+.playing {
+    transform:scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
+
+.letter, .drum{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.letter {
+    font-size: 2rem;
+    color: white;
+    padding-top: .25rem;
+    font-family: 'Special Elite', cursive;
+}
+
+.drum {
+    font-size: .75rem;
+    color: rgb(200, 200, 4);
+    padding-bottom: .25rem;
+}
