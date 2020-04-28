@@ -30,7 +30,7 @@ body {
     border: 2px black solid;
     background: rgba(0, 0, 0, 0.4);
     margin: 2rem;
-    transition:all 0.07s;
+    transition:all 0.05s;
 }
 
 .playing {
